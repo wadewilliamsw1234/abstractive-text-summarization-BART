@@ -1,0 +1,2 @@
+data/curated_data.csv filter=lfs diff=lfs merge=lfs -text
+input/curated_data.csv filter=lfs diff=lfs merge=lfs -text
