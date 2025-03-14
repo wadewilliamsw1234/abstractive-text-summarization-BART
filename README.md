@@ -1,6 +1,6 @@
 # Abstractive Text Summarization using BART
 
-## Introduction
+## 1. Introduction
 - **Text Summarization**: A key NLP technique that shortens documents while preserving their core meaning.
 - **Significance**: A prominent research area in data science, vital for applications like content curation and information retrieval.
 - **Types**:
@@ -8,21 +8,26 @@
   - **Abstractive**: Creates new sentences, paraphrasing the original content.
 - **Project Focus**: Abstractive summarization with transformer models.
 
-## BART Model for Summarization
+## 2. BART Model for Summarization
 - **Overview**: BART (Bidirectional and Auto-Regressive Transformer) excels in text generation tasks like summarization.
 - **Architecture**: Merges BERT's bidirectional encoder with GPT's autoregressive decoder in a sequence-to-sequence framework.
 - **Pre-training**: Uses techniques like token masking, token deletion, text infilling, sentence permutation, and document rotation to handle noisy text.
 - **Fine-tuning**: Optimized for sequence-to-sequence tasks, making it highly effective for abstractive summarization.
 
-## Project Aim
+## 3. Project Aim
 - Develop a BART-based model to generate abstractive summaries of news articles.
 
-## Dataset
+## 4. Dataset
 - **Source**: Curation base repository.
 - **Content**: 40,000 news articles with professionally written summaries, including titles, URLs, dates, and full text.
 - **Format**: CSV file.
 
-## Outline
+## 5. Tech Stack
+- **Language**: Python
+- **Libraries**: `pandas`, `sklearn`, `PyTorch`, `transformers`, `PyTorch Lightning`
+- **Environment**: Google Colab with GPU runtime
+
+## 6. Solution Approach
 1. **Data Preparation**:
    - Import and review a subset of the dataset.
    - Clone the repository and download the CSV file.
